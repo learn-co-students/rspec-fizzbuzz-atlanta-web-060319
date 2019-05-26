@@ -2,14 +2,14 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if int % 15 == 0
-    print "FizzBuzz" 
+    print "FizzBuzz"
   elsif int % 5 == 0
     print "Buzz"
   elseif int % 3 == 0
     print "Fizz"
-  else 
+  else
     print "nil"
   end
-  
+
 
 end
