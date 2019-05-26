@@ -1,4 +1,4 @@
-require './fizzbuzz.rb'# We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
+require './fizzbuzz.rb'# We are missing a 'require_relative' here. Check README.md for instructions and an explanation!
 
 #  fizz_3 = fizzbuzz(3)
 
@@ -21,14 +21,14 @@ require './fizzbuzz.rb'# We are missing a 'require_relative' here. Check README.
 #end
 def fizzbuzz(int)
   if int % 15 == 0
-    print "FizzBuzz" 
+    print "FizzBuzz"
   elsif int % 5 == 0
     print "Buzz"
   elseif int % 3 == 0
     print "Fizz"
-  else 
+  else
     print "nil"
   end
-  
+
 
 end
